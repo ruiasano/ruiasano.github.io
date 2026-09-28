@@ -1,0 +1,192 @@
+---
+title: ""
+---
+
+::: {.sticky-top .bg-body}
+::: {.text-center}
+<a href="index.qmd"
+   aria-label="Home"
+   title="Home"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-house-door" aria-hidden="true"></i>
+</a>
+<a href="bio.qmd"
+   aria-label="Bio"
+   title="Bio"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-person-vcard" aria-hidden="true"></i>
+</a>
+<a href="publications.qmd"
+   aria-label="Publications"
+   title="Publications"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-journal-text" aria-hidden="true"></i>
+</a>
+<a href="datasets.qmd"
+   aria-label="Datasets"
+   title="Datasets"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-database" aria-hidden="true"></i>
+</a>
+<a href="others.qmd"
+   aria-label="Others"
+   title="Others"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-compass" aria-hidden="true"></i>
+</a>
+:::
+
+## Publications
+:::
+
+::: {.text-center}
+### Peer-reviewed article
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 70%; vertical-align: top; padding-bottom: 0.2rem;">
+      1. Asano, Rui. 2023. **"Does peacekeeping by civilians work? Reducing armed violence without armed force."**
+      *Japanese Journal of Political Science* 24(3): 289-309.
+      </td>
+      <td style="width: 30%; vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/00CB3CAE2581B23187C3541CA231EEDC/S1468109923000063a.pdf/does_peacekeeping_by_civilians_work_reducing_armed_violence_without_armed_force.pdf"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Main text (open access)
+      </a>
+      <a href="/files/publications/asano_2023_jjps_appendix.pdf"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Online appendices
+      </a>
+      <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/H6CJHK"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Replication materials
+      </a>
+      <a href="https://doi.org/10.1017/S1468109923000063"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Publisher's page
+      </a>
+      </td>
+  </tbody>
+</table>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Book chapter
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 70%; vertical-align: top; padding-bottom: 0.2rem; padding-right: 2rem;">
+      1. Asano, Rui. 2025. **"The 2019 national elections in Guinea-Bissau: A quantitative analysis of religious and ethnic voting."**
+      In Ricardo Real P. de Sousa, Jens Herpolsheimer, and Jara Cuadrado (Eds.), *Political instability in Guinea-Bissau* (pp. 141-163).
+      London and New York: Routledge.
+      </td>
+      <td style="width: 30%; vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="https://www.taylorfrancis.com/reader/read-online/4c02dff3-bc42-433e-ae93-b61fc5a8e6c2/chapter/pdf?context=ubx"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Main text (open access)
+      </a>
+      <a href="/files/publications/asano_2025_routledge_appendix.pdf"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Online appendix and errata
+      </a>
+      <a href="https://www.taylorfrancis.com/books/edit/10.4324/9781003467243/political-instability-guinea-bissau-ricardo-real-de-sousa-jens-herpolsheimer-jara-cuadrado?_gl=1*1ro8an2*_gcl_au*MTkxMTE4MTk0OS4xNzkwMTQ4MzAy*_ga*MzUzMjQ4NTI4LjE3OTAxNDgzMDQ.*_ga_0HYE8YG0M6*czE3OTAzNDU0MDAkbzIkZzAkdDE3OTAzNDU0MDIkajU4JGwwJGgw"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Publisher's page
+      </a>
+      </td>
+  </tbody>
+</table>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Other publications in English
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 70%; vertical-align: top; padding-bottom: 0.2rem; padding-right: 2rem;">
+      1. Asano, Rui, Yukako Tanaka-Sakabe, and Takashi Nagatsuji. 2026.
+      **"At-risk youth as a source of peacebuilding: Findings from a field survey in Liberia."**
+      JICA Ogata Research Institute Discussion Paper No. 51. Tokyo: JICA Ogata Research Institute for Peace and Development.
+      </td>
+      <td style="width: 30%; vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="https://www.jica.go.jp/jica_ri/publication/discussion/__icsFiles/afieldfile/2026/04/01/Discussion_Paper_No51_3.pdf"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Main text (open access)
+      </a>
+      <a href="https://www.jica.go.jp/english/jica_ri/publication/discussion/1580004_24225.html"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Publisher's page
+      </a>
+      </td>
+  </tbody>
+</table>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Other main publications in Japanese
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 70%; vertical-align: top; padding-bottom: 0.2rem; padding-right: 2rem;">
+      2. 淺野塁. 2025. 「2019年ギニアビサウ国家人民議会議員選挙――選挙実施の概観と新党出現による政治的影響の検討」（pp. 1-25）
+      『西南学院大学法学論集』第58巻3号. 西南学院大学学術研究所.
+      </td>
+      <td style="width: 30%; vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="files/publications/asano_2025_seinan.pdf"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Main text (open access)
+      </a>
+      <a href="https://seinan-gu.repo.nii.ac.jp/records/2002226"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Repository
+      </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 70%; vertical-align: top; padding-bottom: 0.2rem; padding-right: 2rem;">
+      1. 浅野塁・井奥崇輔・栗崎周平. 2021. 「外交の計量分析――外交使節制度の衰微と再生」（pp. 182-210）
+      鈴木基史・飯田敬輔編著『国際関係研究の方法』東京大学出版会.
+      </td>
+      <td style="width: 30%; vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="https://www.utp.or.jp/book/b587759.html"
+         class="btn btn-outline-success btn-sm"
+         target="_blank">
+         Publisher's page
+      </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="mb-5"></div>

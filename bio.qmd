@@ -1,0 +1,157 @@
+---
+title: ""
+---
+
+::: {.sticky-top .bg-body}
+::: {.text-center}
+
+<a href="index.qmd"
+   aria-label="Home"
+   title="Home"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-house-door" aria-hidden="true"></i>
+</a>
+<a href="bio.qmd"
+   aria-label="Bio"
+   title="Bio"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-person-vcard" aria-hidden="true"></i>
+</a>
+<a href="publications.qmd"
+   aria-label="Publications"
+   title="Publications"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-journal-text" aria-hidden="true"></i>
+</a>
+<a href="datasets.qmd"
+   aria-label="Datasets"
+   title="Datasets"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-database" aria-hidden="true"></i>
+</a>
+<a href="others.qmd"
+   aria-label="Others"
+   title="Others"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-compass" aria-hidden="true"></i>
+</a>
+:::
+
+## Bio
+:::
+
+::: {.text-center}
+### Appointments
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">Current</td>
+      <td style="width: 25%; vertical-align: top; padding-bottom: 0.2rem;">Apr. 2026–present</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">
+      <a href="https://www.seinan-gu.ac.jp/law/professor/asano_rui.html"
+         target="_blank"
+         class="bio-link"
+         style="color: white; text-decoration: underline;">
+         Associate Professor
+      </a><br>
+      <style>
+         a.bio-link:hover {
+         color: #00bc8c !important;
+         }
+      </style>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Faculty of Law, Seinan Gakuin University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"></td>
+      <td style="vertical-align: top;">Apr. 2026–present</td>
+      <td style="vertical-align: top;">
+      <a href="https://www.waseda.jp/fpse/winpec/other/2026/04/02/11347/"
+         target="_blank"
+         class="bio-link"
+         style="color: white; text-decoration: underline;">
+         Associate Researcher
+      </a><br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Waseda Institute of Political Economy, Waseda University</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">Past/Full-time</td>
+      <td style="width: 25%; vertical-align: top; padding-bottom: 0.2rem;">Apr. 2024–Mar. 2026</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Instructor<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Faculty of Law, Seinan Gakuin University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;"></td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Nov. 2021–Oct. 2023</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Research Associate<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Institute for Advanced Social Sciences, Waseda University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"></td>
+      <td style="vertical-align: top;">Apr. 2017–Mar. 2020</td>
+      <td style="vertical-align: top;">Research Fellow (DC1)<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Japan Society for the Promotion of Science</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">Past/Adjunct</td>
+      <td style="width: 25%; vertical-align: top; padding-bottom: 0.2rem;">Sep. 2023–Mar. 2026</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Adjunct Lecturer<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Graduate School of Law, Hitotsubashi University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"></td>
+      <td style="vertical-align: top;">Apr. 2023–Sep. 2023</td>
+      <td style="vertical-align: top;">Adjunct Lecturer<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">School of International Politics, Economics and Communication, Aoyama Gakuin University</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Education
+:::
+
+<div class="mb-3"></div>
+
+<table style="width: 100%; border: none;">
+  <tbody>
+    <tr>
+      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">Doctoral</td>
+      <td style="width: 25%; vertical-align: top; padding-bottom: 0.2rem;">Apr. 2017–Mar. 2023</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Ph.D. in Political Science, 2026<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Graduate School of Political Science, Waseda University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Master's</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">Apr. 2015–Mar. 2017</td>
+      <td style="vertical-align: top; padding-bottom: 0.2rem;">M.A. in Political Science, 2017<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">Graduate School of Political Science, Waseda University</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Undergraduate</td>
+      <td style="vertical-align: top;">Apr. 2011–Mar. 2015</td>
+      <td style="vertical-align: top;">B.A. in Global Political Economy, 2015<br>
+      <span style="font-size: 0.9em; color: #aaaaaa;">School of Political Science and Economics, Waseda University</td>
+    </tr>
+  </tbody>
+</table>
+

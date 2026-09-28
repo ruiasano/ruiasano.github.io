@@ -1,0 +1,791 @@
+---
+title: ""
+lightbox: true
+---
+
+<style>
+.grid figcaption {
+  text-align: center;
+}
+</style>
+
+::: {.sticky-top .bg-body}
+::: {.text-center}
+<a href="index.qmd"
+   aria-label="Home"
+   title="Home"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-house-door" aria-hidden="true"></i>
+</a>
+<a href="bio.qmd"
+   aria-label="Bio"
+   title="Bio"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-person-vcard" aria-hidden="true"></i>
+</a>
+<a href="publications.qmd"
+   aria-label="Publications"
+   title="Publications"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-journal-text" aria-hidden="true"></i>
+</a>
+<a href="datasets.qmd"
+   aria-label="Datasets"
+   title="Datasets"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-database" aria-hidden="true"></i>
+</a>
+<a href="others.qmd"
+   aria-label="Others"
+   title="Others"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-compass" aria-hidden="true"></i>
+</a>
+
+:::
+
+## Fieldwork
+:::
+
+::: {.text-center}
+### Photos
+:::
+
+<div class="mb-3"></div>
+
+:::: {.grid}
+::: {.g-col-8}
+<input type="text"
+       id="photo-search"
+       placeholder="Search photos..."
+       class="form-control"
+       style="width:100%;">
+:::
+
+::: {.g-col-4}
+<button id="open-search-results"
+        type="button"
+        class="btn btn-outline-success"
+        style="width:100%; white-space:nowrap;"
+        disabled>
+  View 0 matching photos
+</button>
+:::
+::::
+
+<div class="mb-3"></div>
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![Liberia, Mar. 13-25, 2025](images/others/lib-202503/01.jpeg){
+  .lightbox group="lib-202503"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Mar. 4-13, 2025](images/others/gb-202503/01.jpeg){
+  .lightbox
+  group="gb-202503"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Mar. 7-30, 2023](images/others/gb-202303/01.jpeg){
+  .lightbox
+  group="gb-202303"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+:::
+
+<div class="row g-3" id="photo-results">
+
+<div class="col-12 col-md-4 photo-item d-none" data-caption="Monrovia street sign">
+![Monrovia, street sign: "Wasteful spending in government breeds poverty and impedes development"](images/others/lib-202503/02.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia road sign">
+![Monrovia, road signs at the intersection of Tubman Boulevard and 3rd Street](images/others/lib-202503/03.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign">
+![Monrovia, street sign: "No dumping!!!"](images/others/lib-202503/04.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street">
+![Monrovia, 12th Street](images/others/lib-202503/05.jpeg){.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia hotel survey">
+![Monrovia, Royal Grand Hotel, sign for the enumerator training workshop for our survey: "Social Network and Trust-Building Workshop"](images/others/lib-202503/06.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia hotel survey">
+![Monrovia, Royal Grand Hotel, venue for our survey's enumerator training workshop](images/others/lib-202503/07.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia interview">
+![Monrovia, survey interview site at the intersection of Payne Avenue and 14th Street](images/others/lib-202503/08.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia interview">
+![Monrovia, survey interview site at the intersection, after an interview](images/others/lib-202503/09.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "Say no to drugs: If you can quit for a day, you can quit for a lifetime" (Liberia Drug Enforcement Agency, Ministry of Justice)](images/others/lib-202503/10.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "Say no to drugs to make Liberia a drug free nation!!!"](images/others/lib-202503/11.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Margibi interview">
+![Margibi, survey interview site at a street vendor's stall](images/others/lib-202503/12.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Margibi interview">
+![Margibi, sign for the survey interview site: "Welcome to Harbelville OSM Community: Peace Community"](images/others/lib-202503/13.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bong street sign drug">
+![Bong, street sign: "Say no to drugs to make Liberia a drug free nation!!!"](images/others/lib-202503/14.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia ocean">
+![Monrovia, ocean view from United Nations Drive](images/others/lib-202503/15.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia traffic">
+![Monrovia, traffic jam on Mechlin Street](images/others/lib-202503/16.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Liberian National Museum">
+![Monrovia, Liberian National Museum](images/others/lib-202503/17.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia PHP Unification Park">
+![Monrovia, PHP Unification Park](images/others/lib-202503/18.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Unification Square PHP Unification Park">
+![Monrovia, Unification Square at the PHP Unification Park](images/others/lib-202503/19.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Center for Rehabilitation and Reintegration">
+![Monrovia, Center for Rehabilitation and Reintegration (CFRR)](images/others/lib-202503/20.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia statistics LISGIS">
+![Monrovia, Liberia Institute of Statistics and Geo-Information Services (LISGIS)](images/others/lib-202503/21.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia beach">
+![Monrovia, 11th Street Beach](images/others/lib-202503/22.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia beach sand mining">
+![Monrovia, illegal sand mining at the 11th Street Beach](images/others/lib-202503/23.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia United Nations">
+![Monrovia, One UN House](images/others/lib-202503/24.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "The evidence of drug abuse is clear. Invest in prevention for a healthy society! Stand up against drug abuse and illicit trafficking! Say yes to life and no to drug abuse"](images/others/lib-202503/25.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau airport">
+![Bissau, airport buildings under construction](/images/others/gb-202503/02.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner carnival">
+![Bissau, banner for the 2025 carnival](/images/others/gb-202503/03.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau building">
+![Bissau, a new building at Rua Cacheu](/images/others/gb-202503/04.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign electoral register update election GTAPE">
+![Bissau, sign about electoral register update (Gabinete Técnico de Apoio ao Processo Eleitoral: GTAPE)](/images/others/gb-202503/05.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau river boat">
+![Bissau, Cana do Impernal](/images/others/gb-202503/06.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau national election commission CNE">
+![Bissau, the National Election Commission (CNE) office](/images/others/gb-202503/07.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner national election commission CNE">
+![Bissau, banner for the 2023 legislative election at the CNE office: "Vota! Bu voto ta fassi diferença"](/images/others/gb-202503/08.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner national election commission CNE">
+![Bissau, banner at the CNE office: "Formação sobre género & eleições"](/images/others/gb-202503/09.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster electoral register update election GTAPE">
+![Bissau, poster about electoral register update](/images/others/gb-202503/10.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster electoral register update election GTAPE">
+![Bissau, poster about electoral register update](/images/others/gb-202503/11.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner census INE">
+![Bissau, banner for the pre-census cartographic update at the National Institute of Statistics (INE) office: "Contamos todos para a Guiné-Bissau, para um grande desenvolvimento sustentável"](/images/others/gb-202503/12.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner electoral register update election GTAPE">
+![Bissau, banner about electoral register update at the GTAPE office](/images/others/gb-202503/13.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port">
+![Bissau, port](/images/others/gb-202503/14.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau bust Amílcar Cabral">
+![Bissau, bust of Amílcar Cabral](/images/others/gb-202503/15.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street pedestrian crossing">
+![Bissau, pedestrian crossing on Avenida Pansau Na Isna](/images/others/gb-202503/16.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street hospital Simão Mendes">
+![Bissau, Avenida Pansau Na Isna, in fornt of Hospital Nacional Simão Mendes](/images/others/gb-202503/17.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign feira de artesanato">
+![Bissau, sign for Feira de Artesanato](/images/others/gb-202503/18.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/19.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/20.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/21.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/22.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/23.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato clothes">
+![Bissau, clothes shop in Feira de Artesanato](/images/others/gb-202503/24.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, Fortaleza de São José da Amura](/images/others/gb-202503/25.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign INE">
+![Bissau, sign for the Central Census Office at INE](/images/others/gb-202503/26.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau vehicle census">
+![Bissau, vehicle for the cartographic survey for the fourth General Population and Housing Census (RGPH4)](/images/others/gb-202503/27.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Praça dos Herois Nacionais">
+![Bissau, Praça dos Herois Nacionais at night](/images/others/gb-202503/28.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau road sign">
+![Bissau, road sign on Avenida Amílcar Cabral](/images/others/gb-202503/29.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration](/images/others/gb-202503/30.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration costume](/images/others/gb-202503/31.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration](/images/others/gb-202503/32.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration costume](/images/others/gb-202503/33.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, site for electoral register update](/images/others/gb-202503/34.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, site for electoral register update on the first morning, before activities began](/images/others/gb-202503/35.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, media interview during the electoral register update](/images/others/gb-202503/36.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Nhacra street">
+![Nhacra, street vendors selling clay pots](/images/others/gb-202503/37.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bambadinca house mural Amílcar Cabral">
+![Bambadinca, mural of Amílcar Cabral](/images/others/gb-202503/38.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bafata banner Amílcar Cabral">
+![Bafata, banner marking the centenary of Amílcar Cabral](/images/others/gb-202503/39.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bafata artwork Amílcar Cabral">
+![Bafata, artwork commemorating Amílcar Cabral: "Cabral ka muri"](/images/others/gb-202503/40.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau mural building">
+![Bissau, mural on a building](/images/others/gb-202503/41.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/42.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/43.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202503/44.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, entrance to the National Research Institute (INEP)](/images/others/gb-202503/45.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, National Historical Archives at INEP](/images/others/gb-202503/46.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau supermarket Santy Commercial">
+![Bissau, electronics section of Santy Commercial](/images/others/gb-202503/47.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral INEP">
+![Bissau, exhibition on Amílcar Cabral at INEP](/images/others/gb-202503/48.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/others/gb-202503/49.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/others/gb-202503/50.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/others/gb-202503/51.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, sign for the 2025 carnival](/images/others/gb-202503/52.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau airport COVID-19 health control post">
+![Bissau, health control post at the airport](images/others/gb-202303/02.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street COVID-19 test center">
+![Bissau, COVID-19 test center on Avenida Amílcar Cabral](images/others/gb-202303/03.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/others/gb-202303/04.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/others/gb-202303/05.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/others/gb-202303/06.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street handicraft">
+![Bissau, handicraft shop on Avenida Amílcar Cabral](images/others/gb-202303/07.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street pedestrian crossing">
+![Bissau, pedestrian crossing on Rua 7](images/others/gb-202303/08.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/others/gb-202303/09.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/others/gb-202303/10.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/others/gb-202303/11.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/others/gb-202303/12.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port">
+![Bissau, port](images/others/gb-202303/13.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port ship">
+![Bissau, abandoned ship at the port](images/others/gb-202303/14.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port ship">
+![Bissau, ship at the port](images/others/gb-202303/15.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Rua 3](images/others/gb-202303/16.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Praça dos Herois Nacionais">
+![Bissau, Praça dos Herois Nacionais](/images/others/gb-202303/17.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau National People's Assembly ANP">
+![Bissau, Palácio Colinas de Boé (official seat of the National People's Assembly)](/images/others/gb-202303/18.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15">
+![Bissau, MADEM-G15 National Youth Dialogue event](/images/others/gb-202303/19.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15">
+![Bissau, MADEM-G15 National Youth Dialogue event](/images/others/gb-202303/20.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 Umaro Sissoco Embaló">
+![Bissau, then-President Umaro Sissoco Embaló at the event](/images/others/gb-202303/21.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 security">
+![Bissau, security personnel at the event](/images/others/gb-202303/22.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau market">
+![Bissau, market](/images/others/gb-202303/23.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau car">
+![Bissau, vehicle with the name of a Japanese sushi restaurant, Mine Sushi (峰寿司)](/images/others/gb-202303/24.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Dr Koumba Yala, plaque marking the inauguration by Umaro Sissoco Embaló](/images/others/gb-202303/25.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Pansau Na Isna](/images/others/gb-202303/26.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Rua António N'Bana](/images/others/gb-202303/27.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, sign for the Gabinete Técnico de Apoio ao Processo Eleitoral (GTAPE) office](/images/others/gb-202303/28.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau bust Amílcar Cabral">
+![Bissau, bust of Amílcar Cabral](/images/others/gb-202303/29.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral Amura">
+![Bissau, Amílcar Cabral Mausoleum inside the Amura Fortress](/images/others/gb-202303/30.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral Amura">
+![Bissau, memorial display inside the Amílcar Cabral Mausoleum](/images/others/gb-202303/31.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Nino Vieira Amura">
+![Bissau, João Bernardo "Nino" Vieira Mausoleum inside the Amura Fortress](/images/others/gb-202303/32.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Nino Vieira Amura">
+![Bissau, Nino Vieira Mausoleum](/images/others/gb-202303/33.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, Amura Fortress](/images/others/gb-202303/34.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, entrance to the Military Museum of the National Liberation Struggle inside the Amura Fortress](/images/others/gb-202303/35.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, inside the Military Museum](/images/others/gb-202303/36.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, display at the museum](/images/others/gb-202303/37.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, display at the museum](/images/others/gb-202303/38.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, entrance to the Amura Fortress](/images/others/gb-202303/39.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign feira de artesanato">
+![Bissau, entrance to Feira de Artesanato](/images/others/gb-202303/40.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, entrance to the National Research Institute (INEP)](/images/others/gb-202303/41.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, book store at the INEP](/images/others/gb-202303/42.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register election">
+![Bissau, a person checking voter registration lists posted for the 2023 election](/images/others/gb-202303/43.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/others/gb-202303/44.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research IBAP">
+![Bissau, Institute for Biodiversity and Protected Areas (IBAP)](/images/others/gb-202303/45.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida dos Combatentes da Liberdade da Pátria](/images/others/gb-202303/46.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research university">
+![Bissau, Universidade Colinas de Boé](/images/others/gb-202303/47.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau airport airplane">
+![Bissau, Airbus A340-300 long-stored at the airport](/images/others/gb-202303/48.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+</div>
+
+<script>
+const search = document.getElementById("photo-search");
+const openButton = document.getElementById("open-search-results");
+
+let matchedPhotos = [];
+let searchGallery = null;
+
+search.addEventListener("input", function () {
+  const term = this.value.toLowerCase().trim();
+
+  matchedPhotos = [];
+
+  document.querySelectorAll(".photo-item").forEach(function (item) {
+    const caption = item.dataset.caption.toLowerCase();
+
+    if (term !== "" && caption.includes(term)) {
+      const img = item.querySelector("img");
+
+      if (img) {
+        matchedPhotos.push({
+          href: img.src,
+          type: "image",
+          description: img.alt
+        });
+      }
+    }
+  });
+
+openButton.textContent =
+  "View " + matchedPhotos.length + " matching photos";
+
+openButton.disabled = matchedPhotos.length === 0;
+});
+
+openButton.addEventListener("click", function () {
+  if (matchedPhotos.length === 0) return;
+
+  if (searchGallery) {
+    searchGallery.destroy();
+  }
+
+  searchGallery = GLightbox({
+    elements: matchedPhotos,
+    loop: true
+  });
+
+  searchGallery.open();
+});
+</script>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Maps
+:::
+
+<div class="mb-3"></div>
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+<iframe
+  src="https://www.google.com/maps/d/u/0/embed?mid=1ys0Axj6nuj-m8t0AXwbjfc_riBsVWxI&ehbc=2E312F&noprof=1"
+  width="100%"
+  height="480">
+</iframe>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<iframe
+  src="https://www.google.com/maps/d/u/0/embed?mid=1C6qUZ1ZEo-ewocbnXaGPfNtNgfEcrYY&ehbc=2E312F&noprof=1"
+  width="100%"
+  height="480">
+</iframe>
+:::
+::::

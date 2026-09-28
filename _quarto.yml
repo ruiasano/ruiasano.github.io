@@ -1,0 +1,19 @@
+project:
+  type: website
+  resources:
+    - files/**
+    - images/**
+
+website:
+  title: "Rui Asano"
+  navbar: false
+
+format:
+  html:
+    theme: darkly
+    mainfont: Verdana
+    fontsize: 1.25em
+    anchor-sections: false
+    linkcolor: "#8ab4f8"
+    grid:
+      body-width: 1050px

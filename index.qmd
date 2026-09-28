@@ -1,0 +1,127 @@
+---
+title: ""
+---
+
+::: {.sticky-top .bg-body}
+::: {.text-center}
+<a href="index.qmd"
+   aria-label="Home"
+   title="Home"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-house-door" aria-hidden="true"></i>
+</a>
+<a href="bio.qmd"
+   aria-label="Bio"
+   title="Bio"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-person-vcard" aria-hidden="true"></i>
+</a>
+<a href="publications.qmd"
+   aria-label="Publications"
+   title="Publications"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-journal-text" aria-hidden="true"></i>
+</a>
+<a href="datasets.qmd"
+   aria-label="Datasets"
+   title="Datasets"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-database" aria-hidden="true"></i>
+</a>
+<a href="others.qmd"
+   aria-label="Others"
+   title="Others"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-compass" aria-hidden="true"></i>
+</a>
+:::
+
+## Home
+:::
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+![](/images/index/profile.JPG){width=210}
+:::
+
+::: {.g-col-12 .g-col-md-9 style="text-align: justify;"}
+Rui Asano/淺野塁 is an associate professor in the Faculty of Law at Seinan Gakuin University, Fukuoka, Japan. I received a Ph.D. in political science from Waseda University. My research focuses primarily on United Nations peacekeeping, with broader interests in peacebuilding in West African countries and other areas of internatioanl relations. My current research examines where peacekeepers are deployed and when peacekeepers complete their planned tasks.
+:::
+
+::::
+<div class="mb-4"></div>
+My full CV is here:
+<a href="/files/cv/English/cv_ruiasano.pdf"
+   class="btn btn-outline-success btn-sm disabled"
+   target="_blank">
+  English
+</a>
+<a href="/files/cv/Japanese/cv_ruiasano_jp.pdf"
+   class="btn btn-outline-success btn-sm disabled"
+   target="_blank">
+  日本語
+</a>
+(Updating...)
+
+<div class="mb-4"></div>
+My links are here:
+<a href="https://scholar.google.com/citations?user=XIkICDQAAAAJ&hl=en"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  Google Scholar
+</a>
+<a href="https://orcid.org/0000-0003-3996-5195"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  ORCID
+</a>
+<a href="https://www.linkedin.com/in/rui-asano-786a3216b/"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  LinkedIn
+</a>
+<a href="https://github.com/ruiasano"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  GitHub
+</a>
+<a href="https://researchmap.jp/ruiasano"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  researchmap
+</a>
+<a href="https://nrid.nii.ac.jp/ja/nrid/1000090947607/"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  KAKEN
+</a>
+
+<div class="mb-4"></div>
+My contacts are here:
+<button type="button"
+        class="btn btn-outline-success btn-sm"
+        onclick="copyEmail()"
+        aria-label="Copy email address">
+  <span id="email-button-text">Email</span>
+</button>
+<a href="https://twitter.com/ruiasano"
+   class="btn btn-outline-success btn-sm"
+   target="_blank">
+  X (Twitter)
+</a>
+
+<script>
+function copyEmail() {
+  const parts = ["ruiasano", "seinan-gu", "ac", "jp"];
+  const email = parts[0] + "@" + parts[1] + "." + parts[2] + "." + parts[3];
+
+  navigator.clipboard.writeText(email).then(() => {
+    const label = document.getElementById("email-button-text");
+    label.textContent = "Copied!";
+    setTimeout(() => {
+      label.textContent = "Email";
+    }, 1500);
+  });
+}
+</script>
