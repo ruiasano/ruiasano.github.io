@@ -117,11 +117,11 @@ gtag('config', 'G-M7EKB37L0S', { 'anonymize_ip': true});
 <div class="mb-3">
 
 </div>
-<div class="grid">
-<div class="g-col-8">
+<div class="d-flex flex-column flex-md-row gap-0 gap-md-2">
+<div style="flex: 2 1 0;">
 <p><input type="text" id="photo-search" placeholder="Search photos..." class="form-control" style="width:100%;"></p>
 </div>
-<div class="g-col-4">
+<div style="flex: 1 1 0;">
 <button id="open-search-results" type="button" class="btn btn-outline-success" style="width:100%; white-space:nowrap;" disabled="">
 View 0 matching photos
 </button>
@@ -157,7 +157,7 @@ View 0 matching photos
 </div>
 </div>
 <div id="photo-results" class="row g-3">
-<div class="col-12 col-md-4 photo-item d-none" data-caption="Monrovia street sign">
+<div class="photo-item d-none" data-caption="Monrovia street sign">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/others/lib-202503/02.jpeg" class="lightbox" data-gallery="lib-202503" title="Monrovia, street sign: “Wasteful spending in government breeds poverty and impedes development”"><img src="images/others/lib-202503/02.jpeg" class="img-fluid figure-img" alt="Monrovia, street sign: “Wasteful spending in government breeds poverty and impedes development”"></a></p>
@@ -1202,6 +1202,39 @@ openButton.addEventListener("click", function () {
 </iframe>
 </div>
 </div>
+<style>
+@media (max-width: 768px) {
+  body {
+    font-size: 0.70rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+  }
+
+  .btn {
+    font-size: 0.70rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .figure-caption,
+  figcaption {
+    font-size: 0.70rem;
+  }
+  
+  .form-control {
+  font-size: 0.70rem;
+  }
+}
+</style>
 
 
 
