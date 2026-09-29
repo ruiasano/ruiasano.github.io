@@ -7,6 +7,7 @@ project:
 website:
   title: "Rui Asano"
   navbar: false
+  google-analytics: "G-M7EKB37L0S"
 
 format:
   html:
