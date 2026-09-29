@@ -53,16 +53,17 @@ lightbox: true
 
 <div class="mb-3"></div>
 
-:::: {.grid}
-::: {.g-col-8}
-<input type="text"
+<div class="d-flex flex-column flex-md-row gap-0 gap-md-2">
+
+  <div style="flex: 2 1 0;">
+  <input type="text"
        id="photo-search"
        placeholder="Search photos..."
        class="form-control"
        style="width:100%;">
-:::
+</div>
 
-::: {.g-col-4}
+<div style="flex: 1 1 0;">
 <button id="open-search-results"
         type="button"
         class="btn btn-outline-success"
@@ -70,8 +71,8 @@ lightbox: true
         disabled>
   View 0 matching photos
 </button>
-:::
-::::
+</div>
+</div>
 
 <div class="mb-3"></div>
 
@@ -101,7 +102,7 @@ lightbox: true
 
 <div class="row g-3" id="photo-results">
 
-<div class="col-12 col-md-4 photo-item d-none" data-caption="Monrovia street sign">
+<div class="photo-item d-none" data-caption="Monrovia street sign">
 ![Monrovia, street sign: "Wasteful spending in government breeds poverty and impedes development"](images/others/lib-202503/02.jpeg){
 .lightbox group="lib-202503"}
 </div>
@@ -789,3 +790,37 @@ openButton.addEventListener("click", function () {
 </iframe>
 :::
 ::::
+
+<style>
+@media (max-width: 768px) {
+  body {
+    font-size: 0.70rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+  }
+
+  .btn {
+    font-size: 0.70rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .figure-caption,
+  figcaption {
+    font-size: 0.70rem;
+  }
+  
+  .form-control {
+  font-size: 0.70rem;
+  }
+}
+</style>

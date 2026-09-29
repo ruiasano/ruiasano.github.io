@@ -125,3 +125,28 @@ function copyEmail() {
   });
 }
 </script>
+
+<style>
+@media (max-width: 768px) {
+  body {
+    font-size: 0.70rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+  }
+
+  .btn {
+    font-size: 0.70rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+</style>

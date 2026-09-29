@@ -110,7 +110,10 @@ title: ""
 <table style="width: 100%; border: none;">
   <tbody>
     <tr>
-      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">Past/Adjunct</td>
+      <td style="width: 20%; vertical-align: top; padding-bottom: 0.2rem;">
+        <span class="d-none d-md-inline">Past/Adjunct</span>
+        <span class="d-inline d-md-none">Past/Adj.</span>
+      </td>
       <td style="width: 25%; vertical-align: top; padding-bottom: 0.2rem;">Sep. 2023–Mar. 2026</td>
       <td style="vertical-align: top; padding-bottom: 0.2rem;">Adjunct Lecturer<br>
       <span style="font-size: 0.9em; color: #aaaaaa;">Graduate School of Law, Hitotsubashi University</td>
@@ -147,7 +150,10 @@ title: ""
       <span style="font-size: 0.9em; color: #aaaaaa;">Graduate School of Political Science, Waseda University</td>
     </tr>
     <tr>
-      <td style="vertical-align: top;">Undergraduate</td>
+      <td style="vertical-align: top;">
+        <span class="d-none d-md-inline">Undergraduate</span>
+        <span class="d-inline d-md-none">Under-graduate</span>
+      </td>
       <td style="vertical-align: top;">Apr. 2011–Mar. 2015</td>
       <td style="vertical-align: top;">B.A. in Global Political Economy, 2015<br>
       <span style="font-size: 0.9em; color: #aaaaaa;">School of Political Science and Economics, Waseda University</td>
@@ -155,3 +161,27 @@ title: ""
   </tbody>
 </table>
 
+<style>
+@media (max-width: 768px) {
+  body {
+    font-size: 0.70rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+  }
+
+  .btn {
+    font-size: 0.70rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+</style>
