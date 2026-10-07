@@ -36,8 +36,8 @@ lightbox: true
   <i class="bi bi-database" aria-hidden="true"></i>
 </a>
 <a href="others.qmd"
-   aria-label="Others"
-   title="Others"
+   aria-label="Fieldwork"
+   title="Fieldwork"
    class="btn btn-outline-success mx-2">
   <i class="bi bi-compass" aria-hidden="true"></i>
 </a>
@@ -95,6 +95,30 @@ lightbox: true
 ![Guinea-Bissau, Mar. 7-30, 2023](images/others/gb-202303/01.jpeg){
   .lightbox
   group="gb-202303"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Dec. 27, 2019-Jan. 6, 2020](images/others/gb-201912/01.jpeg){
+  .lightbox
+  group="gb-201912"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Nov. 14-28, 2019](images/others/gb-201911/01.jpeg){
+  .lightbox
+  group="gb-201911"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Liberia, Sep. 19-25, 2019](images/others/lib-201909/01.jpeg){
+  .lightbox
+  group="lib-201909"
   style="width:250px; aspect-ratio:1/1; object-fit:cover;"
 }
 :::
@@ -583,8 +607,8 @@ lightbox: true
 .lightbox group="gb-202303"}
 </div>
 
-<div class="photo-item d-none" data-caption="Bissau market">
-![Bissau, market](/images/others/gb-202303/23.jpeg){
+<div class="photo-item d-none" data-caption="Bissau park">
+![Bissau, Parque Lagoa N'Batonha under construction](/images/others/gb-202303/23.jpeg){
 .lightbox group="gb-202303"}
 </div>
 
@@ -711,6 +735,922 @@ lightbox: true
 <div class="photo-item d-none" data-caption="Bissau airport airplane">
 ![Bissau, Airbus A340-300 long-stored at the airport](/images/others/gb-202303/48.jpeg){
 .lightbox group="gb-202303"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Domingos Simões Pereira's campaign rally at Estádio Lino Correia on the final day of the election campaign for the second round of the 2019 presidential election](/images/others/gb-201912/02.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/others/gb-201912/03.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/others/gb-201912/04.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/others/gb-201912/05.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Umaro Sissoco Embaló's campaign rally on the final day of the election campaign for the second round of the 2019 presidential election](/images/others/gb-201912/06.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Embaló's campaign rally](/images/others/gb-201912/07.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Embaló's campaign truck at the rally: "Vota Geral di povo U.S Embalo, Presidente de unidade nacional"](/images/others/gb-201912/08.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, speech by Nuno Gomes Nabiam at Embaló's campaign rally](/images/others/gb-201912/09.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 poster 2019 presidential election">
+![Bissau, Embaló's poster on a car](/images/others/gb-201912/10.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 poster 2019 presidential election">
+![Bissau, Embaló's poster on a car](/images/others/gb-201912/11.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner poster Umaro Sissoco Embaló MADEM-G15 APU-PDGB 2019 presidential election">
+![Bissau, banners and posters at the APU-PDGB headquarters](/images/others/gb-201912/12.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner Umaro Sissoco Embaló MADEM-G15 PRS 2019 presidential election">
+![Bissau, banners at the PRS headquarters](/images/others/gb-201912/13.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 poster 2019 presidential election">
+![Bissau, Pereira's poster and the presidential palace](/images/others/gb-201912/14.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers putting up a banner at a polling station on election morning](/images/others/gb-201912/15.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers stamping the backs of ballot papers](/images/others/gb-201912/16.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a banner "Assembleia de Voto" and plastic bottles, bins, and stones used to mark places in the queue at a polling station](/images/others/gb-201912/17.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, queue of stones at a polling station](/images/others/gb-201912/18.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a police officer during the voting process](/images/others/gb-201912/19.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot box polling station 2019 presidential election">
+![Bissau, a ballot box](/images/others/gb-201912/20.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster 2019 presidential election">
+![Bissau, posters about the election on the wall](/images/others/gb-201912/21.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC polling station 2019 presidential election">
+![Bissau, Pereira at his polling station, surrounded by the media](/images/others/gb-201912/22.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Aristides Gomes polling station 2019 presidential election">
+![Bissau, Aristides Gomes after casting his vote](/images/others/gb-201912/23.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló's big poster](/images/others/gb-201912/24.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a poll worker opening a ballot box](/images/others/gb-201912/25.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers counting votes as citizens watch](/images/others/gb-201912/26.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, discarded portions of voters' cards cut off as proof of voting, after polling ended](/images/others/gb-201912/27.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, citizens checking the election results at a polling station](/images/others/gb-201912/28.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 polling station 2019 presidential election">
+![Bissau, MADEM-G15 headqurters on the next day of the election](/images/others/gb-201912/29.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau new year festival">
+![Bissau, new year eve festival at Estádio Lino Correia](/images/others/gb-201912/30.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau new year festival fireworks">
+![Bissau, fireworks](/images/others/gb-201912/31.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló celebrating his victory from a car](/images/others/gb-201912/32.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló Braima Camará MADEM-G15 2019 presidential election">
+![Bissau, Braima Camará celebrating Embaló's victory at the MADEM-G15 headqurters](/images/others/gb-201912/33.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's poster on a car](/images/others/gb-201912/34.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló supporters marching after his election victory](/images/others/gb-201912/35.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló's poster on a wood](/images/others/gb-201912/36.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira Pereira PAIGC 2019 presidential election">
+![Bissau, sign for the PAIGC press conference venue](/images/others/gb-201912/37.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira Pereira PAIGC 2019 presidential election">
+![Bissau, PAIGC press conference](/images/others/gb-201912/38.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira at the PAIGC press conference](/images/others/gb-201912/39.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/02.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/03.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/04.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/05.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/06.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/07.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/08.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/09.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/10.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/11.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/12.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/13.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/14.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/15.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/16.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/17.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/18.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/19.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/20.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/21.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/22.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/23.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/24.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/25.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/26.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/27.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/28.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/29.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/30.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/31.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/32.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/33.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/34.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/35.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/36.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/37.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/38.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/39.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/40.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/41.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/42.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/43.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/44.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/45.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/46.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/47.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/48.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/49.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/50.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/51.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/52.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/53.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/54.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/55.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/56.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/57.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/58.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/59.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/60.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/61.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/62.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/63.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/64.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/65.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/66.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/67.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/68.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/69.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/70.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/71.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/72.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/73.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/74.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/75.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/76.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/77.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/78.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/79.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/80.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/81.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/82.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/83.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/84.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/85.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/86.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/87.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/88.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/89.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/90.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/91.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/92.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/93.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/94.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/95.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/96.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/97.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/98.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/99.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/100.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/101.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/102.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/103.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/104.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/105.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/106.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/107.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/108.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/109.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/110.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/111.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/112.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/113.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/114.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/115.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/116.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/117.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/118.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/119.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/120.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/121.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/122.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/123.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/124.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/125.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/126.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/127.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/128.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/129.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/130.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/131.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/132.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/133.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/134.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/135.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/136.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/137.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/138.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/139.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/140.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/141.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/142.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/143.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/144.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/145.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![](/images/others/gb-201911/146.jpeg){
+.lightbox group="gb-201911"}
 </div>
 
 </div>
