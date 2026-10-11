@@ -1,0 +1,1770 @@
+---
+title: ""
+lightbox: true
+---
+
+<style>
+.grid figcaption {
+  text-align: center;
+}
+</style>
+
+::: {.sticky-top .bg-body}
+::: {.text-center}
+<a href="index.qmd"
+   aria-label="Home"
+   title="Home"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-house-door" aria-hidden="true"></i>
+</a>
+<a href="bio.qmd"
+   aria-label="Bio"
+   title="Bio"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-person-vcard" aria-hidden="true"></i>
+</a>
+<a href="publications.qmd"
+   aria-label="Publications"
+   title="Publications"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-journal-text" aria-hidden="true"></i>
+</a>
+<a href="datasets.qmd"
+   aria-label="Datasets"
+   title="Datasets"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-database" aria-hidden="true"></i>
+</a>
+<a href="fieldwork.qmd"
+   aria-label="Fieldwork"
+   title="Fieldwork"
+   class="btn btn-outline-success mx-2">
+  <i class="bi bi-compass" aria-hidden="true"></i>
+</a>
+
+:::
+
+## Fieldwork
+:::
+
+::: {.text-center}
+### Photos
+:::
+
+<div class="mb-3"></div>
+
+<div class="d-flex flex-column flex-md-row gap-0 gap-md-2">
+
+  <div style="flex: 2 1 0;">
+  <input type="text"
+       id="photo-search"
+       placeholder="Search photos..."
+       class="form-control"
+       style="width:100%;">
+</div>
+
+<div style="flex: 1 1 0;">
+<button id="open-search-results"
+        type="button"
+        class="btn btn-outline-success"
+        style="width:100%; white-space:nowrap;"
+        disabled>
+  View 0 matching photos
+</button>
+</div>
+</div>
+
+<div class="mb-3"></div>
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![Liberia, Mar. 13-25, 2025](images/fieldwork/lib-202503/001.jpeg){
+  .lightbox group="lib-202503"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Mar. 4-13, 2025](images/fieldwork/gb-202503/001.jpeg){
+  .lightbox
+  group="gb-202503"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Mar. 7-30, 2023](images/fieldwork/gb-202303/001.jpeg){
+  .lightbox
+  group="gb-202303"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Dec. 27, 2019-Jan. 6, 2020](images/fieldwork/gb-201912/001.jpeg){
+  .lightbox
+  group="gb-201912"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Guinea-Bissau, Nov. 14-28, 2019](images/fieldwork/gb-201911/001.jpeg){
+  .lightbox
+  group="gb-201911"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![Liberia, Sep. 19-25, 2019](images/fieldwork/lib-201909/001.jpeg){
+  .lightbox
+  group="lib-201909"
+  style="width:250px; aspect-ratio:1/1; object-fit:cover;"
+}
+:::
+:::
+
+<div class="row g-3" id="photo-results">
+
+<div class="photo-item d-none" data-caption="Monrovia street sign">
+![Monrovia, street sign: "Wasteful spending in government breeds poverty and impedes development"](images/fieldwork/lib-202503/002.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia road sign">
+![Monrovia, road signs at the intersection of Tubman Boulevard and 3rd Street](images/fieldwork/lib-202503/003.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign">
+![Monrovia, street sign: "No dumping!!!"](images/fieldwork/lib-202503/004.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street">
+![Monrovia, 12th Street](images/fieldwork/lib-202503/005.jpeg){.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia hotel survey">
+![Monrovia, Royal Grand Hotel, sign for the enumerator training workshop for our survey: "Social Network and Trust-Building Workshop"](images/fieldwork/lib-202503/006.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia hotel survey">
+![Monrovia, Royal Grand Hotel, venue for our survey's enumerator training workshop](images/fieldwork/lib-202503/007.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia interview">
+![Monrovia, survey interview site at the intersection of Payne Avenue and 14th Street](images/fieldwork/lib-202503/008.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia interview">
+![Monrovia, survey interview site at the intersection, after an interview](images/fieldwork/lib-202503/009.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "Say no to drugs: If you can quit for a day, you can quit for a lifetime" (Liberia Drug Enforcement Agency, Ministry of Justice)](images/fieldwork/lib-202503/010.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "Say no to drugs to make Liberia a drug free nation!!!"](images/fieldwork/lib-202503/011.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Margibi interview">
+![Margibi, survey interview site at a street vendor's stall](images/fieldwork/lib-202503/012.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Margibi interview">
+![Margibi, sign for the survey interview site: "Welcome to Harbelville OSM Community: Peace Community"](images/fieldwork/lib-202503/013.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bong street sign drug">
+![Bong, street sign: "Say no to drugs to make Liberia a drug free nation!!!"](images/fieldwork/lib-202503/014.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia ocean">
+![Monrovia, ocean view from United Nations Drive](images/fieldwork/lib-202503/015.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia traffic">
+![Monrovia, traffic jam on Mechlin Street](images/fieldwork/lib-202503/016.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Liberian National Museum">
+![Monrovia, Liberian National Museum](images/fieldwork/lib-202503/017.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia PHP Unification Park">
+![Monrovia, PHP Unification Park](images/fieldwork/lib-202503/018.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Unification Square PHP Unification Park">
+![Monrovia, Unification Square at the PHP Unification Park](images/fieldwork/lib-202503/019.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia Center for Rehabilitation and Reintegration">
+![Monrovia, Center for Rehabilitation and Reintegration (CFRR)](images/fieldwork/lib-202503/020.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia statistics LISGIS">
+![Monrovia, Liberia Institute of Statistics and Geo-Information Services (LISGIS)](images/fieldwork/lib-202503/021.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia beach">
+![Monrovia, 11th Street Beach](images/fieldwork/lib-202503/022.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia beach sand mining">
+![Monrovia, illegal sand mining at the 11th Street Beach](images/fieldwork/lib-202503/023.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia United Nations">
+![Monrovia, One UN House](images/fieldwork/lib-202503/024.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia street sign drug">
+![Monrovia, street sign: "The evidence of drug abuse is clear. Invest in prevention for a healthy society! Stand up against drug abuse and illicit trafficking! Say yes to life and no to drug abuse"](images/fieldwork/lib-202503/025.jpeg){
+.lightbox group="lib-202503"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau airport">
+![Bissau, airport buildings under construction](/images/fieldwork/gb-202503/002.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner carnival">
+![Bissau, banner for the 2025 carnival](/images/fieldwork/gb-202503/003.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau building">
+![Bissau, a new building at Rua Cacheu](/images/fieldwork/gb-202503/004.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign electoral register update election GTAPE">
+![Bissau, sign about electoral register update (Gabinete Técnico de Apoio ao Processo Eleitoral: GTAPE)](/images/fieldwork/gb-202503/005.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau river boat">
+![Bissau, Cana do Impernal](/images/fieldwork/gb-202503/006.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau national election commission CNE">
+![Bissau, the National Election Commission (CNE) office](/images/fieldwork/gb-202503/007.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner national election commission CNE">
+![Bissau, banner for the 2023 legislative election at the CNE office: "Vota! Bu voto ta fassi diferença"](/images/fieldwork/gb-202503/008.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner national election commission CNE">
+![Bissau, banner at the CNE office: "Formação sobre género & eleições"](/images/fieldwork/gb-202503/009.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster electoral register update election GTAPE">
+![Bissau, poster about electoral register update](/images/fieldwork/gb-202503/010.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster electoral register update election GTAPE">
+![Bissau, poster about electoral register update](/images/fieldwork/gb-202503/011.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner census INE">
+![Bissau, banner for the pre-census cartographic update at the National Institute of Statistics (INE) office: "Contamos todos para a Guiné-Bissau, para um grande desenvolvimento sustentável"](/images/fieldwork/gb-202503/012.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner electoral register update election GTAPE">
+![Bissau, banner about electoral register update at the GTAPE office](/images/fieldwork/gb-202503/013.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port">
+![Bissau, port](/images/fieldwork/gb-202503/014.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau bust Amílcar Cabral">
+![Bissau, bust of Amílcar Cabral](/images/fieldwork/gb-202503/015.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street pedestrian crossing">
+![Bissau, pedestrian crossing on Avenida Pansau Na Isna](/images/fieldwork/gb-202503/016.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street hospital Simão Mendes">
+![Bissau, Avenida Pansau Na Isna, in fornt of Hospital Nacional Simão Mendes](/images/fieldwork/gb-202503/017.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign feira de artesanato">
+![Bissau, sign for Feira de Artesanato](/images/fieldwork/gb-202503/018.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/019.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/020.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/021.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/022.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/023.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato clothes">
+![Bissau, clothes shop in Feira de Artesanato](/images/fieldwork/gb-202503/024.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, Fortaleza de São José da Amura](/images/fieldwork/gb-202503/025.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign INE">
+![Bissau, sign for the Central Census Office at INE](/images/fieldwork/gb-202503/026.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau vehicle census">
+![Bissau, vehicle for the cartographic survey for the fourth General Population and Housing Census (RGPH4)](/images/fieldwork/gb-202503/027.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Praça dos Herois Nacionais">
+![Bissau, Praça dos Herois Nacionais at night](/images/fieldwork/gb-202503/028.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau road sign">
+![Bissau, road sign on Avenida Amílcar Cabral](/images/fieldwork/gb-202503/029.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration](/images/fieldwork/gb-202503/030.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration costume](/images/fieldwork/gb-202503/031.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration](/images/fieldwork/gb-202503/032.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau International Women's Day celebration">
+![Bissau, International Women's Day celebration costume](/images/fieldwork/gb-202503/033.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, site for electoral register update](/images/fieldwork/gb-202503/034.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, site for electoral register update on the first morning, before activities began](/images/fieldwork/gb-202503/035.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register update election GTAPE">
+![Bissau, media interview during the electoral register update](/images/fieldwork/gb-202503/036.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Nhacra street">
+![Nhacra, street vendors selling clay pots](/images/fieldwork/gb-202503/037.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bambadinca house mural Amílcar Cabral">
+![Bambadinca, mural of Amílcar Cabral](/images/fieldwork/gb-202503/038.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bafata banner Amílcar Cabral">
+![Bafata, banner marking the centenary of Amílcar Cabral](/images/fieldwork/gb-202503/039.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bafata artwork Amílcar Cabral">
+![Bafata, artwork commemorating Amílcar Cabral: "Cabral ka muri"](/images/fieldwork/gb-202503/040.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau mural building">
+![Bissau, mural on a building](/images/fieldwork/gb-202503/041.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/042.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/043.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202503/044.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, entrance to the National Research Institute (INEP)](/images/fieldwork/gb-202503/045.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, National Historical Archives at INEP](/images/fieldwork/gb-202503/046.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau supermarket Santy Commercial">
+![Bissau, electronics section of Santy Commercial](/images/fieldwork/gb-202503/047.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral INEP">
+![Bissau, exhibition on Amílcar Cabral at INEP](/images/fieldwork/gb-202503/048.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/fieldwork/gb-202503/049.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/fieldwork/gb-202503/050.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, inside the National Historical Archives](/images/fieldwork/gb-202503/051.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP National Historical Archives">
+![Bissau, sign for the 2025 carnival](/images/fieldwork/gb-202503/052.jpeg){
+.lightbox group="gb-202503"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau airport COVID-19 health control post">
+![Bissau, health control post at the airport](images/fieldwork/gb-202303/002.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street COVID-19 test center">
+![Bissau, COVID-19 test center on Avenida Amílcar Cabral](images/fieldwork/gb-202303/003.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/fieldwork/gb-202303/004.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/fieldwork/gb-202303/005.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/fieldwork/gb-202303/006.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street handicraft">
+![Bissau, handicraft shop on Avenida Amílcar Cabral](images/fieldwork/gb-202303/007.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street pedestrian crossing">
+![Bissau, pedestrian crossing on Rua 7](images/fieldwork/gb-202303/008.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/fieldwork/gb-202303/009.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/fieldwork/gb-202303/010.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street road rehabilitation">
+![Bissau, sign about rehabilitation of Bissau's urban roads](images/fieldwork/gb-202303/011.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Amílcar Cabral under construction](images/fieldwork/gb-202303/012.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port">
+![Bissau, port](images/fieldwork/gb-202303/013.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port ship">
+![Bissau, abandoned ship at the port](images/fieldwork/gb-202303/014.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau port ship">
+![Bissau, ship at the port](images/fieldwork/gb-202303/015.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Rua 3](images/fieldwork/gb-202303/016.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Praça dos Herois Nacionais">
+![Bissau, Praça dos Herois Nacionais](/images/fieldwork/gb-202303/017.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau National People's Assembly ANP">
+![Bissau, Palácio Colinas de Boé (official seat of the National People's Assembly)](/images/fieldwork/gb-202303/018.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15">
+![Bissau, MADEM-G15 National Youth Dialogue event](/images/fieldwork/gb-202303/019.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15">
+![Bissau, MADEM-G15 National Youth Dialogue event](/images/fieldwork/gb-202303/020.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 Umaro Sissoco Embaló">
+![Bissau, then-President Umaro Sissoco Embaló at the event](/images/fieldwork/gb-202303/021.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 security">
+![Bissau, security personnel at the event](/images/fieldwork/gb-202303/022.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau park">
+![Bissau, Parque Lagoa N'Batonha under construction](/images/fieldwork/gb-202303/023.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau car">
+![Bissau, vehicle with the name of a Japanese sushi restaurant, Mine Sushi (峰寿司)](/images/fieldwork/gb-202303/024.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Dr Koumba Yala, plaque marking the inauguration by Umaro Sissoco Embaló](/images/fieldwork/gb-202303/025.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida Pansau Na Isna](/images/fieldwork/gb-202303/026.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Rua António N'Bana](/images/fieldwork/gb-202303/027.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, sign for the Gabinete Técnico de Apoio ao Processo Eleitoral (GTAPE) office](/images/fieldwork/gb-202303/028.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau bust Amílcar Cabral">
+![Bissau, bust of Amílcar Cabral](/images/fieldwork/gb-202303/029.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral Amura">
+![Bissau, Amílcar Cabral Mausoleum inside the Amura Fortress](/images/fieldwork/gb-202303/030.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amílcar Cabral Amura">
+![Bissau, memorial display inside the Amílcar Cabral Mausoleum](/images/fieldwork/gb-202303/031.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Nino Vieira Amura">
+![Bissau, João Bernardo "Nino" Vieira Mausoleum inside the Amura Fortress](/images/fieldwork/gb-202303/032.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Nino Vieira Amura">
+![Bissau, Nino Vieira Mausoleum](/images/fieldwork/gb-202303/033.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, Amura Fortress](/images/fieldwork/gb-202303/034.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, entrance to the Military Museum of the National Liberation Struggle inside the Amura Fortress](/images/fieldwork/gb-202303/035.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, inside the Military Museum](/images/fieldwork/gb-202303/036.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, display at the museum](/images/fieldwork/gb-202303/037.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura military museum">
+![Bissau, display at the museum](/images/fieldwork/gb-202303/038.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Amura">
+![Bissau, entrance to the Amura Fortress](/images/fieldwork/gb-202303/039.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign feira de artesanato">
+![Bissau, entrance to Feira de Artesanato](/images/fieldwork/gb-202303/040.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, entrance to the National Research Institute (INEP)](/images/fieldwork/gb-202303/041.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research INEP">
+![Bissau, book store at the INEP](/images/fieldwork/gb-202303/042.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral register election">
+![Bissau, a person checking voter registration lists posted for the 2023 election](/images/fieldwork/gb-202303/043.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-202303/044.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research IBAP">
+![Bissau, Institute for Biodiversity and Protected Areas (IBAP)](/images/fieldwork/gb-202303/045.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street">
+![Bissau, Avenida dos Combatentes da Liberdade da Pátria](/images/fieldwork/gb-202303/046.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau research university">
+![Bissau, Universidade Colinas de Boé](/images/fieldwork/gb-202303/047.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau airport airplane">
+![Bissau, Airbus A340-300 long-stored at the airport](/images/fieldwork/gb-202303/048.jpeg){
+.lightbox group="gb-202303"}
+</div>
+
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Domingos Simões Pereira's campaign rally at Estádio Lino Correia on the final day of the election campaign for the second round of the 2019 presidential election](/images/fieldwork/gb-201912/002.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/fieldwork/gb-201912/003.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/fieldwork/gb-201912/004.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC campaign rally 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/fieldwork/gb-201912/005.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Umaro Sissoco Embaló's campaign rally on the final day of the election campaign for the second round of the 2019 presidential election](/images/fieldwork/gb-201912/006.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Embaló's campaign rally](/images/fieldwork/gb-201912/007.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, Embaló's campaign truck at the rally: "Vota Geral di povo U.S Embalo, Presidente de unidade nacional"](/images/fieldwork/gb-201912/008.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 campaign rally 2019 presidential election">
+![Bissau, speech by Nuno Gomes Nabiam at Embaló's campaign rally](/images/fieldwork/gb-201912/009.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 poster 2019 presidential election">
+![Bissau, Embaló's poster on a car](/images/fieldwork/gb-201912/010.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 poster 2019 presidential election">
+![Bissau, Embaló's poster on a car](/images/fieldwork/gb-201912/011.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner poster Umaro Sissoco Embaló MADEM-G15 APU-PDGB 2019 presidential election">
+![Bissau, banners and posters at the APU-PDGB headquarters](/images/fieldwork/gb-201912/012.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner Umaro Sissoco Embaló MADEM-G15 PRS 2019 presidential election">
+![Bissau, banners at the PRS headquarters](/images/fieldwork/gb-201912/013.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 poster 2019 presidential election">
+![Bissau, Pereira's poster and the presidential palace](/images/fieldwork/gb-201912/014.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers putting up a banner at a polling station on election morning](/images/fieldwork/gb-201912/015.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers stamping the backs of ballot papers](/images/fieldwork/gb-201912/016.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a banner "Assembleia de Voto" and plastic bottles, bins, and stones used to mark places in the queue at a polling station](/images/fieldwork/gb-201912/017.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, queue of stones at a polling station](/images/fieldwork/gb-201912/018.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a police officer during the voting process](/images/fieldwork/gb-201912/019.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot box polling station 2019 presidential election">
+![Bissau, a ballot box](/images/fieldwork/gb-201912/020.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster 2019 presidential election">
+![Bissau, posters about the election on the wall](/images/fieldwork/gb-201912/021.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC polling station 2019 presidential election">
+![Bissau, Pereira at his polling station, surrounded by the media](/images/fieldwork/gb-201912/022.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Aristides Gomes polling station 2019 presidential election">
+![Bissau, Aristides Gomes after casting his vote](/images/fieldwork/gb-201912/023.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló's big poster](/images/fieldwork/gb-201912/024.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a poll worker opening a ballot box](/images/fieldwork/gb-201912/025.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers counting votes as citizens watch](/images/fieldwork/gb-201912/026.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, discarded portions of voters' cards cut off as proof of voting, after polling ended](/images/fieldwork/gb-201912/027.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, citizens checking the election results at a polling station](/images/fieldwork/gb-201912/028.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 polling station 2019 presidential election">
+![Bissau, MADEM-G15 headqurters on the next day of the election](/images/fieldwork/gb-201912/029.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau new year festival">
+![Bissau, new year eve festival at Estádio Lino Correia](/images/fieldwork/gb-201912/030.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau new year festival fireworks">
+![Bissau, fireworks](/images/fieldwork/gb-201912/031.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló celebrating his victory from a car](/images/fieldwork/gb-201912/032.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló Braima Camará MADEM-G15 2019 presidential election">
+![Bissau, Braima Camará celebrating Embaló's victory at the MADEM-G15 headqurters](/images/fieldwork/gb-201912/033.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's poster on a car](/images/fieldwork/gb-201912/034.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló supporters marching after his election victory](/images/fieldwork/gb-201912/035.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Embaló's poster on a wood](/images/fieldwork/gb-201912/036.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, sign for the PAIGC press conference venue](/images/fieldwork/gb-201912/037.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, PAIGC press conference](/images/fieldwork/gb-201912/038.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira at the PAIGC press conference](/images/fieldwork/gb-201912/039.jpeg){
+.lightbox group="gb-201912"}
+</div>
+
+<div class="photo-item d-none" data-caption="poster Domingos Simões Pereira PAIGC 2019 presidential election">
+![Northern Guinea-Bissau, Domingos Simões Pereira's poster on a tree ahead of the first round of the 2019 presidential election](/images/fieldwork/gb-201911/002.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign street Carlos Gomes Júnior Cadogo 2019 presidential election">
+![Bissau, sign for Carlos Gomes Júnior on a street: "Vota Cadogo"](/images/fieldwork/gb-201911/003.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign street Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, sign for Pereira on a street: "Tchon na fria, pa terra ranka"](/images/fieldwork/gb-201911/004.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner building Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's banner on a building: "Gossi i Guiné Bissau"](/images/fieldwork/gb-201911/005.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau sign street National Election Commission CNE voting process 2019 presidential election">
+![Bissau, National Election Commission (CNE) sign about the voting process on a street](/images/fieldwork/gb-201911/006.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster street Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's poster on a street](/images/fieldwork/gb-201911/007.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau hotel banner Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's banner on Hotel Império: "Agora é Guiné Bissau"](/images/fieldwork/gb-201911/008.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau hat booklet PAIGC headquarters 2019 presidential election">
+![Bissau, hats and booklets for sale at the PAIGC headquarters](/images/fieldwork/gb-201911/009.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau car PAIGC headquarters Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, car at the PAIGC headquarters](/images/fieldwork/gb-201911/010.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster street Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's poster on a tree on Avenida Pansau Na Isna](/images/fieldwork/gb-201911/011.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner national election commission CNE 2019 presidential election">
+![Bissau, banner for the election at the CNE office: "O teu voto é livre e soberano"](/images/fieldwork/gb-201911/012.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Iaia Djaló PND">
+![Bissau, Iaia Djaló's posters on a truck](/images/fieldwork/gb-201911/013.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster street Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's posters on a wall on Avenida Francisco Mendes](/images/fieldwork/gb-201911/014.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster restaurant Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's banner at a restaurant Papaloca under construction](/images/fieldwork/gb-201911/015.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Carlos Gomes Júnior Cadogo 2019 presidential election">
+![Bissau, preparations for Cadogo's campaign rally](/images/fieldwork/gb-201911/016.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner street Carlos Gomes Júnior Cadogo 2019 presidential election">
+![Bissau, Cadogo's banner on Avenida Pansau Na Isna: "Um so povo, um so nação presidente"](/images/fieldwork/gb-201911/017.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Armed Forces Day">
+![Bissau, military personnel marching during celebrations for Guinea-Bissau Armed Forces Day (November 16)](/images/fieldwork/gb-201911/018.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, military personnel lined up inside the Amura Fortress after the march](/images/fieldwork/gb-201911/019.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, military personnel lined up inside the Amura Fortress](/images/fieldwork/gb-201911/020.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, military officers inside a tent at the Amura Fortress](/images/fieldwork/gb-201911/021.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, senior military officer during his speech](/images/fieldwork/gb-201911/022.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, senior military officer during his speech](/images/fieldwork/gb-201911/023.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Luís Silva de Melo Amura">
+![Bissau, Luís Silva de Melo during his speech](/images/fieldwork/gb-201911/024.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military Amura">
+![Bissau, military officers inside a tent at the Amura Fortress](/images/fieldwork/gb-201911/025.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military General Biaguê Na Ntan Amura">
+![Bissau, General Biaguê Na Ntan during his speech](/images/fieldwork/gb-201911/026.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau military tent">
+![Bissau, tent in the Amura Fortress](/images/fieldwork/gb-201911/027.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau flag Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, PAIGC flag with "Vota DSP"](/images/fieldwork/gb-201911/028.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau hat Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, hat with Pereira's picture and "Vota DSP"](/images/fieldwork/gb-201911/029.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau feira de artesanato handicraft">
+![Bissau, handicraft shop in Feira de Artesanato](/images/fieldwork/gb-201911/030.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira supporters riding to a campaign rally](/images/fieldwork/gb-201911/031.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally site](/images/fieldwork/gb-201911/032.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally site](/images/fieldwork/gb-201911/033.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally](/images/fieldwork/gb-201911/034.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, speaker on stage at Pereira's campaign rally](/images/fieldwork/gb-201911/035.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira receiving a large key as a gift from supporters on stage](/images/fieldwork/gb-201911/036.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira receiving a picture from supporters](/images/fieldwork/gb-201911/037.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira during his speech](/images/fieldwork/gb-201911/038.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally site with many supporters](/images/fieldwork/gb-201911/039.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, car with Pereira's pictures and "Vota DSP"](/images/fieldwork/gb-201911/040.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's supporters riding back from the campaign rally](/images/fieldwork/gb-201911/041.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster José Mário Vaz 2019 presidential election">
+![Bissau, José Mário Vaz's poster on a wall](/images/fieldwork/gb-201911/042.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Domingos Simões Pereira Idriça Djalo PAIGC 2019 presidential election">
+![Bissau, posters for Pereira and Idriça Djalo](/images/fieldwork/gb-201911/043.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally site](/images/fieldwork/gb-201911/044.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign rally site](/images/fieldwork/gb-201911/045.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Vicente Fernandes 2019 presidential election">
+![Bissau, Vicente Fernandes's poster on a wall](/images/fieldwork/gb-201911/046.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau booklet Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's booklet](/images/fieldwork/gb-201911/047.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign merchandise hat T-shirt wristband Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's campaign merchandise: hats, T-shirts, and wristbands](/images/fieldwork/gb-201911/048.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau PRS 2019 presidential election">
+![Bissau, campaign car with a PRS flag](/images/fieldwork/gb-201911/049.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC Umaro Sissoco Embaló MADEM-G15 Nuno Nabiam PRS Iaia Djaló PND 2019 presidential election">
+![Bissau, T-shirts for presidential candidates](/images/fieldwork/gb-201911/050.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Iaia Djaló PND 2019 presidential election">
+![Bissau, truck with Iaia Djaló's posters](/images/fieldwork/gb-201911/051.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street PND headquarters">
+![Bissau, PND headquarters on Rua Emelinda Gomes](/images/fieldwork/gb-201911/052.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street APU-PDGB headquarters">
+![Bissau, APU-PDGB headquarters on Rua Emelinda Gomes](/images/fieldwork/gb-201911/053.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau street Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's banner on a building on Avenida dos Combatentes da Liberdade da Pátria](/images/fieldwork/gb-201911/054.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau banner MDG Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, MDG's banner for Pereira: "Para o futuro da nação"](/images/fieldwork/gb-201911/055.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau truck Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, truck with Pereira's posters](/images/fieldwork/gb-201911/056.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting 2019 presidential election">
+![Bissau, designated area for Electoral Circle 27 during early voting by security personnel, three days before election day](/images/fieldwork/gb-201911/057.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting military 2019 presidential election">
+![Bissau, security personnel waiting for early voting](/images/fieldwork/gb-201911/058.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting military 2019 presidential election">
+![Bissau, security personnel waiting for early voting](/images/fieldwork/gb-201911/059.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting military 2019 presidential election">
+![Bissau, ballot box and a member of the military waiting to vote](/images/fieldwork/gb-201911/060.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting military 2019 presidential election">
+![Bissau, site for early voting by security personnel](/images/fieldwork/gb-201911/061.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting military 2019 presidential election">
+![Bissau, voting by a member of the military](/images/fieldwork/gb-201911/062.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting police 2019 presidential election">
+![Bissau, voting by a police officer](/images/fieldwork/gb-201911/063.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting 2019 presidential election">
+![Bissau, voting by a member of the Rapid Intervention Police (P.I.R.)](/images/fieldwork/gb-201911/064.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting 2019 presidential election">
+![Bissau, inked finger after early voting](/images/fieldwork/gb-201911/065.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting 2019 presidential election">
+![Bissau, early voting site for security personnel](/images/fieldwork/gb-201911/066.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau early voting 2019 presidential election">
+![Bissau, designated area for Electoral Circle 24 during early voting](/images/fieldwork/gb-201911/067.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau 2019 presidential election">
+![Bissau, posters for presidential candidates on a wall](/images/fieldwork/gb-201911/068.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's posters on a wall](/images/fieldwork/gb-201911/069.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau PRS headquarters">
+![Bissau, PRS headquarters on Avenida dos Combatentes da Liberdade da Pátria](/images/fieldwork/gb-201911/070.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, Umaro Sissoco Embaló's posters on a wall](/images/fieldwork/gb-201911/071.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau MADEM-G15 office">
+![Bissau, MADEM-G15 office on Avenida dos Combatentes da Liberdade da Pátria](/images/fieldwork/gb-201911/072.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, site for Embaló's final campaign rally](/images/fieldwork/gb-201911/073.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, site for Embaló's final campaign rally](/images/fieldwork/gb-201911/074.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Umaro Sissoco Embaló MADEM-G15 2019 presidential election">
+![Bissau, site for Embaló's final campaign rally](/images/fieldwork/gb-201911/075.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's supporters walking to the campaign rally](/images/fieldwork/gb-201911/076.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's supporter wearing a campaign sticker: "Vota DSP: Tchon na fria, pa terra ranka"](/images/fieldwork/gb-201911/077.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Carlos Gomes Júnior 2019 presidential election">
+![Bissau, Cadogo's posters at his final campaign rally site: "Força di experiência"](/images/fieldwork/gb-201911/078.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Carlos Gomes Júnior 2019 presidential election">
+![Bissau, site for Cadogo's final campaign rally](/images/fieldwork/gb-201911/079.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally José Mário Vaz 2019 presidential election">
+![Bissau, car at the site of Vaz's final campaign rally: "Presidente di paz"](/images/fieldwork/gb-201911/080.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ocean sea boat">
+![Bissau, ocean view from the site for Vaz's final campaign rally](/images/fieldwork/gb-201911/081.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally José Mário Vaz 2019 presidential election">
+![Bissau, site for Vaz's final campaign rally](/images/fieldwork/gb-201911/082.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, site for Pereira's final campaign rally, Estádio Lino Correia](/images/fieldwork/gb-201911/083.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, people gathering for Pereira's final campaign rally](/images/fieldwork/gb-201911/084.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau singer campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, a singer singing before the rally](/images/fieldwork/gb-201911/085.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![Bissau, Pereira's supporters waiting for his final campaign rally starting](/images/fieldwork/gb-201911/086.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Charbel singer campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Charbel singing before the rally](/images/fieldwork/gb-201911/087.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's final campaign rally](/images/fieldwork/gb-201911/088.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira on the stage for his final campaign rally](/images/fieldwork/gb-201911/089.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, supporters presenting a gift to Pereira](/images/fieldwork/gb-201911/090.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira during his speech](/images/fieldwork/gb-201911/091.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau balloon campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, campaign balloon for Pereira, the day after the final campaign rally](/images/fieldwork/gb-201911/092.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau face mask campaign rally Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira face mask on the ground](/images/fieldwork/gb-201911/093.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, people collecting polling station materials at the Regional Election Commission office](/images/fieldwork/gb-201911/094.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot box 2019 presidential election">
+![Bissau, ballot boxes containing other election materials](/images/fieldwork/gb-201911/095.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau car vehicle permit 2019 presidential election">
+![Bissau, car with a vehicle permit "Livre trânsito" for Electoral Circle 24](/images/fieldwork/gb-201911/096.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, people resting before setting up a polling station early in the morning](/images/fieldwork/gb-201911/097.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral registration polling station 2019 presidential election">
+![Bissau, voter registration information posted on a wall](/images/fieldwork/gb-201911/098.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers posting polling station information on a wall](/images/fieldwork/gb-201911/099.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ink polling station 2019 presidential election">
+![Bissau, election ink](/images/fieldwork/gb-201911/100.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, people gathering at the polling station](/images/fieldwork/gb-201911/101.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers taping a banner saying "Assembleia de voto" to the wall](/images/fieldwork/gb-201911/102.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, voting booth](/images/fieldwork/gb-201911/103.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, table with election materials](/images/fieldwork/gb-201911/104.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, poll workers preparing](/images/fieldwork/gb-201911/105.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a poll worker checking ballots cast by security personnel](/images/fieldwork/gb-201911/106.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, voter log used to record people who voted (Lista própria dos votantes)](/images/fieldwork/gb-201911/107.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, party delegates checking the voter registration information](/images/fieldwork/gb-201911/108.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, journalists waiting for voting to begin](/images/fieldwork/gb-201911/109.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, polling station just before voting begins](/images/fieldwork/gb-201911/110.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot box polling station 2019 presidential election">
+![Bissau, confirmation that the ballot box is empty before voting begins](/images/fieldwork/gb-201911/111.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, media interview with a voter](/images/fieldwork/gb-201911/112.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, voters lining up to vote](/images/fieldwork/gb-201911/113.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral observer African Union polling station 2019 presidential election">
+![Bissau, electoral observers from African Union](/images/fieldwork/gb-201911/114.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral observer African Union polling station 2019 presidential election">
+![Bissau, security personnel watching African Union observers](/images/fieldwork/gb-201911/115.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a voter in the voting process](/images/fieldwork/gb-201911/116.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, voters lining up to vote](/images/fieldwork/gb-201911/117.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau electoral registration polling station 2019 presidential election">
+![Bissau, kids looking at voter registration information](/images/fieldwork/gb-201911/118.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira at his polling station](/images/fieldwork/gb-201911/119.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a polling station](/images/fieldwork/gb-201911/120.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau José Mário Vaz 2019 presidential election">
+![Bissau, Vaz on his way to the polling station](/images/fieldwork/gb-201911/121.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau José Mário Vaz polling station 2019 presidential election">
+![Bissau, people surrounding Vaz at the polling station](/images/fieldwork/gb-201911/122.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau Aristides Gomes polling station 2019 presidential election">
+![Bissau, Aristides Gomes at his polling station](/images/fieldwork/gb-201911/123.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a polling station](/images/fieldwork/gb-201911/124.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a polling station](/images/fieldwork/gb-201911/125.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a polling station](/images/fieldwork/gb-201911/126.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau poster Domingos Simões Pereira PAIGC 2019 presidential election">
+![Bissau, Pereira's poster](/images/fieldwork/gb-201911/127.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot paper 2019 presidential election">
+![Bissau, ballot papers](/images/fieldwork/gb-201911/128.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, polling station moved under a tree](/images/fieldwork/gb-201911/129.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, a party delegate checking voter registration information](/images/fieldwork/gb-201911/130.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, discarded portions of voters' cards cut off as proof of voting](/images/fieldwork/gb-201911/131.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot paper polling station 2019 presidential election">
+![Bissau, a poll worker crossing out unused ballot papers after voting ended](/images/fieldwork/gb-201911/132.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot paper polling station vote count 2019 presidential election">
+![Bissau, a poll worker reading a ballot paper aloud](/images/fieldwork/gb-201911/133.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station vote count 2019 presidential election">
+![Bissau, party delegates and citizens watching the vote count](/images/fieldwork/gb-201911/134.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station vote count 2019 presidential election">
+![Bissau, a party delegate tallying votes](/images/fieldwork/gb-201911/135.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station 2019 presidential election">
+![Bissau, after the vote count](/images/fieldwork/gb-201911/136.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau polling station vote count 2019 presidential election">
+![Bissau, citizens checking the result](/images/fieldwork/gb-201911/137.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau ballot box 2019 presidential election">
+![Bissau, stacked ballot boxes in the election office the day after voting](/images/fieldwork/gb-201911/138.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau voting booth 2019 presidential election">
+![Bissau, used voting booths stacked the day after voting](/images/fieldwork/gb-201911/139.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau 2019 presidential election">
+![Bissau, election process in Guinea-Bissau](/images/fieldwork/gb-201911/140.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau African Union 2019 presidential election">
+![Bissau, African Union press conference at Hala Hotel & Aqua Park](/images/fieldwork/gb-201911/141.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau protest national election commission CNE 2019 presidential election">
+![Bissau, protest against the CNE on the day the election results were announced, three days after voting](/images/fieldwork/gb-201911/142.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau 2019 presidential election result">
+![Bissau, military personnel in front of Hotel Ceiba, where the election results were announced](/images/fieldwork/gb-201911/143.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau 2019 presidential election result">
+![Bissau, venue for the announcement of the election results](/images/fieldwork/gb-201911/144.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau 2019 presidential election result">
+![Bissau, election results](/images/fieldwork/gb-201911/145.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+<div class="photo-item d-none" data-caption="Bissau">
+![Bissau, presidential palace and Praça dos Herois Nacionais](/images/fieldwork/gb-201911/146.jpeg){
+.lightbox group="gb-201911"}
+</div>
+
+</div>
+
+::: {.text-center}
+Photos © 2026 Rui Asano. All rights reserved.
+:::
+
+<script>
+const search = document.getElementById("photo-search");
+const openButton = document.getElementById("open-search-results");
+
+let matchedPhotos = [];
+let searchGallery = null;
+
+search.addEventListener("input", function () {
+  const term = this.value.toLowerCase().trim();
+
+  matchedPhotos = [];
+
+  document.querySelectorAll(".photo-item").forEach(function (item) {
+    const caption = item.dataset.caption.toLowerCase();
+
+    if (term !== "" && caption.includes(term)) {
+      const img = item.querySelector("img");
+
+      if (img) {
+        matchedPhotos.push({
+          href: img.src,
+          type: "image",
+          description: img.alt
+        });
+      }
+    }
+  });
+
+openButton.textContent =
+  "View " + matchedPhotos.length + " matching photos";
+
+openButton.disabled = matchedPhotos.length === 0;
+});
+
+openButton.addEventListener("click", function () {
+  if (matchedPhotos.length === 0) return;
+
+  if (searchGallery) {
+    searchGallery.destroy();
+  }
+
+  searchGallery = GLightbox({
+    elements: matchedPhotos,
+    loop: true
+  });
+
+  searchGallery.open();
+});
+</script>
+
+<div class="mb-5"></div>
+
+::: {.text-center}
+### Maps
+:::
+
+<div class="mb-3"></div>
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+<iframe
+  src="https://www.google.com/maps/d/u/0/embed?mid=1ys0Axj6nuj-m8t0AXwbjfc_riBsVWxI&ehbc=2E312F&noprof=1"
+  width="100%"
+  height="480">
+</iframe>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<iframe
+  src="https://www.google.com/maps/d/u/0/embed?mid=1C6qUZ1ZEo-ewocbnXaGPfNtNgfEcrYY&ehbc=2E312F&noprof=1"
+  width="100%"
+  height="480">
+</iframe>
+:::
+::::
+
+<style>
+@media (max-width: 768px) {
+  body {
+    font-size: 0.70rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+  }
+
+  .btn {
+    font-size: 0.70rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .figure-caption,
+  figcaption {
+    font-size: 0.70rem;
+  }
+  
+  .form-control {
+  font-size: 0.70rem;
+  }
+}
+</style>
