@@ -1653,6 +1653,141 @@ lightbox: true
 .lightbox group="gb-201911"}
 </div>
 
+<div class="photo-item d-none" data-caption="Monrovia market">
+![Monrovia, Liberia marketplace and farmers' market, supported by the Government of Japan](/images/fieldwork/lib-201909/002.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia university">
+![Monrovia, view from the University of Liberia, Capitol Hill Campus](/images/fieldwork/lib-201909/003.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia peacebuilding office research">
+![Monrovia, Liberia Peacebuilding Office, Ministry of Internal Affairs](/images/fieldwork/lib-201909/004.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia university research">
+![Monrovia, University of Liberia, Kofi Annan Institute for Conflict Transformation](/images/fieldwork/lib-201909/005.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia national bureau of veterans affairs research">
+![Monrovia, National Bureau of Veterans Affairs](/images/fieldwork/lib-201909/006.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia national bureau of veterans affairs research">
+![Monrovia, National Bureau of Veterans Affairs](/images/fieldwork/lib-201909/007.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia">
+![Monrovia, view from near Ducor Hill](/images/fieldwork/lib-201909/008.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia car vehicle">
+![Monrovia, taxis](/images/fieldwork/lib-201909/009.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia car vehicle">
+![Monrovia, kekehs (tuk-tuks)](/images/fieldwork/lib-201909/010.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia market">
+![Monrovia, market](/images/fieldwork/lib-201909/011.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia port">
+![Monrovia, Free Port of Monrovia: "Gateway to Liberia's economy"](/images/fieldwork/lib-201909/012.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia river">
+![Monrovia, St. Paul River](/images/fieldwork/lib-201909/013.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia sign ebola">
+![Monrovia, a sign on the street: "Ebola must go"](/images/fieldwork/lib-201909/014.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia sign">
+![Monrovia, a sign on the street: "Tackle corruption uncompromisingly! Concerned Residents (CR)"](/images/fieldwork/lib-201909/015.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia national election commission research">
+![Monrovia, National Election Commission (NEC)](/images/fieldwork/lib-201909/016.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia center for national documents and records archives research">
+![Monrovia, Center for National Documents and Records / Archives](/images/fieldwork/lib-201909/017.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia beach">
+![Monrovia, beach](/images/fieldwork/lib-201909/018.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia billboard national election commission">
+![Monrovia, NEC billboard: "Make your voice heard through the ballot box"](/images/fieldwork/lib-201909/019.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia building conflict">
+![Monrovia, a building](/images/fieldwork/lib-201909/020.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia building conflict">
+![Monrovia, a building](/images/fieldwork/lib-201909/021.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia sign ebola">
+![Monrovia, a sign about Ebola virus](/images/fieldwork/lib-201909/022.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia car national museum">
+![Monrovia, a car displayed at the National Museum of Liberia](/images/fieldwork/lib-201909/023.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Monrovia road">
+![Monrovia, a road](/images/fieldwork/lib-201909/024.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Kakata Japan Heavy Equipment Operator School Komatsu">
+![Kakata, Japan Heavy Equipment Operator School (JHEOS)](/images/fieldwork/lib-201909/025.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Kakata Japan Heavy Equipment Operator School Komatsu">
+![Kakata, JHEOS building with KOMATSU signs](/images/fieldwork/lib-201909/026.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Kakata Japan Heavy Equipment Operator School Komatsu">
+![Kakata, inside the JHEOS building: "Safety starts with you!"](/images/fieldwork/lib-201909/027.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
+<div class="photo-item d-none" data-caption="Kakata car Japan Heavy Equipment Operator School Komatsu">
+![Kakata, shovel car in the JHEOS building](/images/fieldwork/lib-201909/028.jpeg){
+.lightbox group="lib-201909"}
+</div>
+
 </div>
 
 ::: {.text-center}
@@ -1686,11 +1821,11 @@ search.addEventListener("input", function () {
       }
     }
   });
-
-openButton.textContent =
-  "View " + matchedPhotos.length + " matching photos";
-
-openButton.disabled = matchedPhotos.length === 0;
+  
+  openButton.textContent =
+    "View " + matchedPhotos.length + " matching photos";
+    
+  openButton.disabled = matchedPhotos.length === 0;
 });
 
 openButton.addEventListener("click", function () {
@@ -1702,9 +1837,10 @@ openButton.addEventListener("click", function () {
 
   searchGallery = GLightbox({
     elements: matchedPhotos,
-    loop: true
+    loop: true,
+    moreLength: 0
   });
-
+  
   searchGallery.open();
 });
 </script>
